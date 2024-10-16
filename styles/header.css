@@ -31,13 +31,13 @@
     top: 100%;
 }
 
-.container__botao:checked ~ .lista-menu {
+.container__botao:checked~.lista-menu {
     display: block;
 
 }
 
-.lista-menu__titulo, 
-.lista-menu__item {
+.lista-menu_titulo, 
+.lista-menu_item {
     padding: 1em;
     background-color: var(--branco);
 }
